@@ -1,0 +1,65 @@
+page-landing-page {
+
+}
+
+.landing-bg {
+  background-image: url('../assets/home-bg.jpeg');
+  background: cover no-repeat;
+}
+
+.landing-page {
+  height: 100vh;
+  background-color: rgba(0,0,0,.3);
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+.landing-header {
+  padding: 10% 15% 0 15%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.login {
+  width: 60%;
+  text-align: center;
+  color: white;
+  margin-bottom:35%;
+}
+
+.getting-started {
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.getting-started p {
+  width: 90%;
+  text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+    background: black;
+}
+
+
+.about {
+  background: #FFD54F;
+  height: 100vh;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20% 15% 30% 15%;
+}
+
+.about h1 {
+  color:white
+}
